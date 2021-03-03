@@ -8,4 +8,5 @@ print("Kérlek jelentkezz be!")
 in_pass = input()
 if in_pass == "Bélalog8654":
     print("Sikeres bejelentkezés!")
+    print("")
     #Req Module 2 - Action panel
