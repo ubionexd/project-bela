@@ -54,14 +54,13 @@ if user == "2":
         print(space)
         print("Bejelentkezve, mint Musk3t4sl4c1 (Admin)")
         playsound.playsound("succes-login.mp3", True)
-        print("Segítséghez: help")
 
 command = input()
 
 if not user == "0":
-    if command == "help":
+    if command == "idő":
         print(space)
-        print("A segítség itt jelenik majd meg...")
+        print(idő)
 
 
 
