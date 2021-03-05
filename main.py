@@ -56,8 +56,13 @@ if user == "2":
         playsound.playsound("succes-login.mp3", True)
         print("Segítséghez: help")
 
+command = input()
+
 if not user == "0":
-    command = input()
+    if command == "help":
+        print(space)
+        print("A segítség itt jelenik majd meg...")
+
 
 
 logout = input()
@@ -75,4 +80,3 @@ if logout == "Logout":
         print("Kijelentkezés...")
         playsound.playsound("succes-logout.mp3", True)
         print(space)
-        
