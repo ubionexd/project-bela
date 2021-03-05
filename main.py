@@ -3,9 +3,11 @@
 #Version 2 - Felolvasás
 
 import playsound
+import datetime
 
 user = "0"
 space = "\n\n\n\n\n\n\n\n\n\n\n"
+idő = datetime.datetime.now()
 
 print(space)
 print("Betöltés...")
@@ -35,7 +37,7 @@ if in_username == "Musk3t4sl4c1":
     user = "2"
     playsound.playsound("musk3t4sl4c1pass.mp3", True)
 
-else: print("Nem található ilyen parancs.")
+else: print("")
 
 
 if user == "1":
@@ -44,6 +46,7 @@ if user == "1":
         print(space)
         print("Bejelentkezve, mint UbiOne (Admin)")
         playsound.playsound("succes-login.mp3", True)
+        print("Segítséghez: help")
 
 if user == "2":
     musk3t4sl4c1_pass = input()
@@ -51,6 +54,10 @@ if user == "2":
         print(space)
         print("Bejelentkezve, mint Musk3t4sl4c1 (Admin)")
         playsound.playsound("succes-login.mp3", True)
+        print("Segítséghez: help")
+
+if not user == "0":
+    command = input()
 
 
 logout = input()
