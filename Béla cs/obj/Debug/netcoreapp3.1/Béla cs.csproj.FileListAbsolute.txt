@@ -1,0 +1,16 @@
+C:\Users\olive\source\repos\Béla cs\Béla cs\bin\Debug\netcoreapp3.1\Béla cs.exe
+C:\Users\olive\source\repos\Béla cs\Béla cs\bin\Debug\netcoreapp3.1\Béla cs.deps.json
+C:\Users\olive\source\repos\Béla cs\Béla cs\bin\Debug\netcoreapp3.1\Béla cs.runtimeconfig.json
+C:\Users\olive\source\repos\Béla cs\Béla cs\bin\Debug\netcoreapp3.1\Béla cs.runtimeconfig.dev.json
+C:\Users\olive\source\repos\Béla cs\Béla cs\bin\Debug\netcoreapp3.1\Béla cs.dll
+C:\Users\olive\source\repos\Béla cs\Béla cs\bin\Debug\netcoreapp3.1\Béla cs.pdb
+C:\Users\olive\source\repos\Béla cs\Béla cs\obj\Debug\netcoreapp3.1\Béla cs.csprojAssemblyReference.cache
+C:\Users\olive\source\repos\Béla cs\Béla cs\obj\Debug\netcoreapp3.1\Béla_cs.Form1.resources
+C:\Users\olive\source\repos\Béla cs\Béla cs\obj\Debug\netcoreapp3.1\Béla cs.csproj.GenerateResource.cache
+C:\Users\olive\source\repos\Béla cs\Béla cs\obj\Debug\netcoreapp3.1\Béla cs.AssemblyInfoInputs.cache
+C:\Users\olive\source\repos\Béla cs\Béla cs\obj\Debug\netcoreapp3.1\Béla cs.AssemblyInfo.cs
+C:\Users\olive\source\repos\Béla cs\Béla cs\obj\Debug\netcoreapp3.1\Béla cs.csproj.CoreCompileInputs.cache
+C:\Users\olive\source\repos\Béla cs\Béla cs\obj\Debug\netcoreapp3.1\Béla cs.dll
+C:\Users\olive\source\repos\Béla cs\Béla cs\obj\Debug\netcoreapp3.1\Béla cs.pdb
+C:\Users\olive\source\repos\Béla cs\Béla cs\obj\Debug\netcoreapp3.1\Béla cs.genruntimeconfig.cache
+C:\Users\olive\source\repos\Béla cs\Béla cs\obj\Debug\netcoreapp3.1\Béla_cs.Form2.resources
