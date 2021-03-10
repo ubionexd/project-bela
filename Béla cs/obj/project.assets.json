@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\olive\\source\\repos\\Béla cs\\Béla cs\\Béla cs.csproj",
+      "projectUniqueName": "C:\\Users\\olive\\Documents\\GitHub\\project-bela\\Béla cs\\Béla cs.csproj",
       "projectName": "Béla cs",
-      "projectPath": "C:\\Users\\olive\\source\\repos\\Béla cs\\Béla cs\\Béla cs.csproj",
+      "projectPath": "C:\\Users\\olive\\Documents\\GitHub\\project-bela\\Béla cs\\Béla cs.csproj",
       "packagesPath": "C:\\Users\\olive\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\olive\\source\\repos\\Béla cs\\Béla cs\\obj\\",
+      "outputPath": "C:\\Users\\olive\\Documents\\GitHub\\project-bela\\Béla cs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\olive\\AppData\\Roaming\\NuGet\\NuGet.Config",
