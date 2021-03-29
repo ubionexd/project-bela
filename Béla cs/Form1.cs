@@ -27,7 +27,7 @@ namespace Béla_cs
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -65,9 +65,17 @@ namespace Béla_cs
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void form2nav_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            var form2 = new Form2();
+            form2.Closed += (s, args) => this.Close();
             form2.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

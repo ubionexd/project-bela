@@ -31,6 +31,7 @@ namespace Béla_cs
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
             this.Label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -39,7 +40,7 @@ namespace Béla_cs
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.form2nav = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -47,6 +48,7 @@ namespace Béla_cs
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
+            this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.Label1);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -54,6 +56,25 @@ namespace Béla_cs
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(796, 20);
             this.panel1.TabIndex = 0;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Transparent;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Whitney Semibold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.Location = new System.Drawing.Point(750, 0);
+            this.button4.Name = "button4";
+            this.button4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.button4.Size = new System.Drawing.Size(20, 20);
+            this.button4.TabIndex = 10;
+            this.button4.Text = "_";
+            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.button4.UseMnemonic = false;
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Label1
             // 
@@ -161,20 +182,20 @@ namespace Béla_cs
             this.button2.Text = "Bejelentkezés";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // form2nav
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Font = new System.Drawing.Font("Whitney Semibold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(419, 217);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(106, 23);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Regisztráció";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.form2nav.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
+            this.form2nav.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.form2nav.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.form2nav.Font = new System.Drawing.Font("Whitney Semibold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.form2nav.ForeColor = System.Drawing.Color.White;
+            this.form2nav.Location = new System.Drawing.Point(419, 217);
+            this.form2nav.Name = "form2nav";
+            this.form2nav.Size = new System.Drawing.Size(106, 23);
+            this.form2nav.TabIndex = 7;
+            this.form2nav.Text = "Regisztráció";
+            this.form2nav.UseVisualStyleBackColor = false;
+            this.form2nav.Click += new System.EventHandler(this.form2nav_Click);
             // 
             // label5
             // 
@@ -195,7 +216,7 @@ namespace Béla_cs
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(796, 475);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.form2nav);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox2);
@@ -229,8 +250,9 @@ namespace Béla_cs
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button form2nav;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button4;
     }
 }
 
