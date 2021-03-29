@@ -43,12 +43,12 @@ namespace Béla_cs
             Application.Exit();
         }
 
-        private void panel1_MouseDown(object sender, MouseEventArgs e)
+        private void form2_MouseDown(object sender, MouseEventArgs e)
         {
             mouseLocation = new Point(-e.X, -e.Y);
         }
 
-        private void panel1_MouseMove(object sender, MouseEventArgs e)
+        private void form2_MouseMove(object sender, MouseEventArgs e)
         {
             if(e.Button == MouseButtons.Left)
             {
@@ -124,6 +124,11 @@ namespace Béla_cs
         private void button4_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void label7_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

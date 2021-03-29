@@ -27,7 +27,7 @@ namespace Béla_cs
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            button2.Enabled = false;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -40,12 +40,12 @@ namespace Béla_cs
             Application.Exit();
         }
 
-        private void panel1_MouseDown(object sender, MouseEventArgs e)
+        private void form1_MouseDown(object sender, MouseEventArgs e)
         {
             mouseLocation = new Point(-e.X, -e.Y);
         }
 
-        private void panel1_MouseMove(object sender, MouseEventArgs e)
+        private void form1_MouseMove(object sender, MouseEventArgs e)
         {
             if(e.Button == MouseButtons.Left)
             {
@@ -76,6 +76,40 @@ namespace Béla_cs
         private void button4_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            button3.Hide();
+            panel2.Hide();
+            label6.Hide();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox1.Text.ToString() == "guest")
+            {
+                button2.Enabled = true;
+            }
+            else
+            {
+                button2.Enabled = false;
+            }
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+ 
         }
     }
 }

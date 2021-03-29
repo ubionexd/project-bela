@@ -42,7 +42,11 @@ namespace Béla_cs
             this.button2 = new System.Windows.Forms.Button();
             this.form2nav = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -64,11 +68,11 @@ namespace Béla_cs
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Whitney Semibold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(750, 0);
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
+            this.button4.Location = new System.Drawing.Point(77, 0);
             this.button4.Name = "button4";
             this.button4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.button4.Size = new System.Drawing.Size(20, 20);
+            this.button4.Size = new System.Drawing.Size(693, 20);
             this.button4.TabIndex = 10;
             this.button4.Text = "_";
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -79,6 +83,7 @@ namespace Béla_cs
             // Label1
             // 
             this.Label1.AutoSize = true;
+            this.Label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Label1.Font = new System.Drawing.Font("Whitney Semibold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
@@ -107,7 +112,7 @@ namespace Béla_cs
             this.button1.UseMnemonic = false;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
-            this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.form1_MouseDown);
             // 
             // label2
             // 
@@ -125,13 +130,15 @@ namespace Béla_cs
             // 
             this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox1.Font = new System.Drawing.Font("Whitney Semibold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(225, 150);
+            this.textBox1.MaxLength = 12;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(300, 14);
+            this.textBox1.Size = new System.Drawing.Size(300, 13);
             this.textBox1.TabIndex = 2;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label3
             // 
@@ -152,10 +159,13 @@ namespace Béla_cs
             this.textBox2.Font = new System.Drawing.Font("Whitney Semibold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.textBox2.ForeColor = System.Drawing.Color.White;
             this.textBox2.Location = new System.Drawing.Point(225, 198);
+            this.textBox2.MaxLength = 22;
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '•';
             this.textBox2.Size = new System.Drawing.Size(300, 13);
             this.textBox2.TabIndex = 4;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label4
             // 
@@ -208,6 +218,39 @@ namespace Béla_cs
             this.label5.TabIndex = 8;
             this.label5.Text = "Bejelentkezés";
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.button3);
+            this.panel2.Location = new System.Drawing.Point(13, 406);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(320, 57);
+            this.panel2.TabIndex = 9;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Whitney Semibold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(16, 20);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(248, 14);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "A regisztráció technikai okok miatt le van tiltva.";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // button3
+            // 
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
+            this.button3.Image = global::Béla_cs.Properties.Resources.icons8_cancel_30;
+            this.button3.Location = new System.Drawing.Point(270, 10);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(35, 35);
+            this.button3.TabIndex = 0;
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -215,6 +258,7 @@ namespace Béla_cs
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(47)))), ((int)(((byte)(51)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(796, 475);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.form2nav);
             this.Controls.Add(this.button2);
@@ -231,9 +275,11 @@ namespace Béla_cs
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BÉLA LOGIN";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.form1_MouseMove);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -253,6 +299,9 @@ namespace Béla_cs
         private System.Windows.Forms.Button form2nav;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button3;
     }
 }
 
