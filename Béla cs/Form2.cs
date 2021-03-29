@@ -28,7 +28,7 @@ namespace Béla_cs
 
         private void Form2_Load(object sender, EventArgs e)
         {
-
+            pictureBox1.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -78,7 +78,31 @@ namespace Béla_cs
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox3.Text.ToString() == "cgzuiasugdv-gdtalobyrq")
+            {
+                pictureBox1.Show();
+            }
+            else
+            {
+                pictureBox1.Hide();
+            }
+
+            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
