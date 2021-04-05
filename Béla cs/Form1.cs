@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Discord;
 
 namespace Béla_cs
 {
@@ -15,24 +16,37 @@ namespace Béla_cs
 
         public Point mouseLocation;
         Form2 form2 = new Form2();
+        int m = 0;
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            button2.Enabled = false;
+            LoginAsUserGuest.Enabled = false;
+            label7.Hide();
+            if (m == 1)
+            {
+                button3.Hide();
+                panel2.Hide();
+                label6.Hide();
+            }
+            if (m == 1)
+            {
+                label7.Show();
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -47,7 +61,7 @@ namespace Béla_cs
 
         private void form1_MouseMove(object sender, MouseEventArgs e)
         {
-            if(e.Button == MouseButtons.Left)
+            if (e.Button == MouseButtons.Left)
             {
                 Point mousePose = Control.MousePosition;
                 mousePose.Offset(mouseLocation.X, mouseLocation.Y);
@@ -89,27 +103,52 @@ namespace Béla_cs
         }
 
         private void button3_Click(object sender, EventArgs e)
-        {
-            button3.Hide();
-            panel2.Hide();
-            label6.Hide();
+        {            
+                button3.Hide();
+                panel2.Hide();
+                label6.Hide();
+                m = 1;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             if (textBox1.Text.ToString() == "guest")
             {
-                button2.Enabled = true;
+                LoginAsUserGuest.Enabled = true;
+                
             }
             else
             {
-                button2.Enabled = false;
+                LoginAsUserGuest.Enabled = false;
             }
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
  
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+        
+        }
+
+        private void LoginAsUserGuest_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var form3 = new Form3();
+            form3.Closed += (s, args) => this.Close();
+            form3.Show();
+        }
+
+        static void UpdatePresence()
+        {
+            DiscordRichPresence discordPresence;
+            memset(&discordPresence, 0, sizeof(discordPresence));
+            discordPresence.state = "Béla egyre okosabb lesz";
+            discordPresence.details = "Béla: DevVersion 1";
+            discordPresence.partyId = " ";
+            Discord_UpdatePresence(&discordPresence);
         }
     }
 }

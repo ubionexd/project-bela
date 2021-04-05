@@ -39,12 +39,13 @@ namespace Béla_cs
             this.label3 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.LoginAsUserGuest = new System.Windows.Forms.Button();
             this.form2nav = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -178,19 +179,20 @@ namespace Béla_cs
             this.label4.TabIndex = 5;
             this.label4.Text = "Jelszó";
             // 
-            // button2
+            // LoginAsUserGuest
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(137)))), ((int)(((byte)(218)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Whitney Semibold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(225, 217);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(188, 23);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Bejelentkezés";
-            this.button2.UseVisualStyleBackColor = false;
+            this.LoginAsUserGuest.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(137)))), ((int)(((byte)(218)))));
+            this.LoginAsUserGuest.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LoginAsUserGuest.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.LoginAsUserGuest.Font = new System.Drawing.Font("Whitney Semibold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LoginAsUserGuest.ForeColor = System.Drawing.Color.White;
+            this.LoginAsUserGuest.Location = new System.Drawing.Point(225, 217);
+            this.LoginAsUserGuest.Name = "LoginAsUserGuest";
+            this.LoginAsUserGuest.Size = new System.Drawing.Size(188, 23);
+            this.LoginAsUserGuest.TabIndex = 6;
+            this.LoginAsUserGuest.Text = "Bejelentkezés";
+            this.LoginAsUserGuest.UseVisualStyleBackColor = false;
+            this.LoginAsUserGuest.Click += new System.EventHandler(this.LoginAsUserGuest_Click);
             // 
             // form2nav
             // 
@@ -251,6 +253,18 @@ namespace Béla_cs
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(336, 325);
+            this.label7.Name = "label7";
+            this.label7.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label7.Size = new System.Drawing.Size(126, 32);
+            this.label7.TabIndex = 10;
+            this.label7.Text = "mukodik :)";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -258,10 +272,11 @@ namespace Béla_cs
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(47)))), ((int)(((byte)(51)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(796, 475);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.form2nav);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.LoginAsUserGuest);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label3);
@@ -295,13 +310,14 @@ namespace Béla_cs
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button LoginAsUserGuest;
         private System.Windows.Forms.Button form2nav;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label7;
     }
 }
 

@@ -31,3 +31,4 @@ C:\Users\olive\Documents\GitHub\project-bela\Béla cs\obj\Debug\netcoreapp3.1\B�
 C:\Users\olive\Documents\GitHub\project-bela\Béla cs\obj\Debug\netcoreapp3.1\Béla cs.pdb
 C:\Users\olive\Documents\GitHub\project-bela\Béla cs\obj\Debug\netcoreapp3.1\Béla cs.genruntimeconfig.cache
 C:\Users\olive\Documents\GitHub\project-bela\Béla cs\obj\Debug\netcoreapp3.1\Béla_cs.Properties.Resources.resources
+C:\Users\olive\Documents\GitHub\project-bela\Béla cs\obj\Debug\netcoreapp3.1\Béla_cs.Form3.resources
