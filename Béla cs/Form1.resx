@@ -67,9 +67,6 @@
         nUBBZBEgwq6ZSDSENVNUGJBfDCUGAwDh7mbBmou7+gAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="button3.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>True</value>
-  </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAYAAAAAAAEAIACGRQAAZgAAAICAAAABACAAKAgBAOxFAABAQAAAAQAgAChCAAAUTgEAMDAAAAEA

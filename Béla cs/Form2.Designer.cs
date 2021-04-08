@@ -87,11 +87,11 @@ namespace Béla_cs
             // 
             this.Label1.AutoSize = true;
             this.Label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Label1.Font = new System.Drawing.Font("Whitney Semibold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Label1.Font = new System.Drawing.Font("Microsoft PhagsPa", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
             this.Label1.Location = new System.Drawing.Point(0, 2);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(87, 14);
+            this.Label1.Size = new System.Drawing.Size(93, 16);
             this.Label1.TabIndex = 1;
             this.Label1.Text = "BÉLA REGISTER";
             this.Label1.Click += new System.EventHandler(this.label1_Click);
@@ -119,11 +119,11 @@ namespace Béla_cs
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Whitney Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Microsoft New Tai Lue", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
-            this.label2.Location = new System.Drawing.Point(677, 459);
+            this.label2.Location = new System.Drawing.Point(668, 459);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 18);
+            this.label2.Size = new System.Drawing.Size(128, 21);
             this.label2.TabIndex = 1;
             this.label2.Text = "BÉLA UPDATE 2";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -144,11 +144,11 @@ namespace Béla_cs
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Whitney Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Microsoft New Tai Lue", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(137)))), ((int)(((byte)(218)))));
             this.label3.Location = new System.Drawing.Point(225, 130);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 17);
+            this.label3.Size = new System.Drawing.Size(115, 20);
             this.label3.TabIndex = 3;
             this.label3.Text = "Felhasználónév";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -170,11 +170,11 @@ namespace Béla_cs
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Whitney Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Font = new System.Drawing.Font("Microsoft New Tai Lue", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(137)))), ((int)(((byte)(218)))));
             this.label4.Location = new System.Drawing.Point(225, 178);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(48, 17);
+            this.label4.Size = new System.Drawing.Size(51, 20);
             this.label4.TabIndex = 5;
             this.label4.Text = "Jelszó";
             // 
@@ -183,7 +183,7 @@ namespace Béla_cs
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(137)))), ((int)(((byte)(218)))));
             this.button2.Cursor = System.Windows.Forms.Cursors.No;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Whitney Semibold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.Font = new System.Drawing.Font("Microsoft New Tai Lue", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(225, 267);
             this.button2.Name = "button2";
@@ -198,7 +198,7 @@ namespace Béla_cs
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Font = new System.Drawing.Font("Whitney Semibold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button3.Font = new System.Drawing.Font("Microsoft New Tai Lue", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(419, 267);
             this.button3.Name = "button3";
@@ -211,11 +211,11 @@ namespace Béla_cs
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Whitney Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label5.Font = new System.Drawing.Font("Microsoft New Tai Lue", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(137)))), ((int)(((byte)(218)))));
-            this.label5.Location = new System.Drawing.Point(322, 88);
+            this.label5.Location = new System.Drawing.Point(311, 88);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(112, 22);
+            this.label5.Size = new System.Drawing.Size(119, 25);
             this.label5.TabIndex = 8;
             this.label5.Text = "Regisztráció";
             // 
@@ -237,11 +237,11 @@ namespace Béla_cs
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Whitney Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.Font = new System.Drawing.Font("Microsoft New Tai Lue", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(137)))), ((int)(((byte)(218)))));
             this.label6.Location = new System.Drawing.Point(225, 228);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(70, 17);
+            this.label6.Size = new System.Drawing.Size(76, 20);
             this.label6.TabIndex = 10;
             this.label6.Text = "Bétakulcs";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -249,17 +249,17 @@ namespace Béla_cs
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Whitney Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label8.Font = new System.Drawing.Font("Microsoft New Tai Lue", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label8.Location = new System.Drawing.Point(225, 312);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(90, 22);
+            this.label8.Size = new System.Drawing.Size(96, 25);
             this.label8.TabIndex = 14;
             this.label8.Text = "Bétakulcs";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(322, 312);
+            this.pictureBox1.Location = new System.Drawing.Point(336, 312);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(25, 24);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -270,7 +270,7 @@ namespace Béla_cs
             // 
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.No;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(322, 312);
+            this.pictureBox4.Location = new System.Drawing.Point(336, 313);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(25, 24);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
